@@ -1,0 +1,20 @@
+{
+  "name": "javascript-profesional",
+  "version": "1.0.0",
+  "description": "Curso para crear un reproductor de video \"Media Player\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PepeCharly01/JavaScript-Profesional.git"
+  },
+  "keywords": ["platzi", "media player"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PepeCharly01/JavaScript-Profesional/issues"
+  },
+  "homepage": "https://github.com/PepeCharly01/JavaScript-Profesional#readme"
+}
