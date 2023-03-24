@@ -9,7 +9,7 @@ MediaPlayer.prototype._initPlugins = function () {
         play: () => this.play(),
         pause: () => this.pause(),
         media: this.media,
-        get mited() {
+        get muted() {
             return this.media.muted;
         },
 
