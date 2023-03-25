@@ -1,20 +1,20 @@
 {
-  "name": "javascript-profesional",
+  "name": "platzi-media-player",
   "version": "1.0.0",
-  "description": "Curso para crear un reproductor de video \"Media Player\"",
-  "main": "index.js",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "César Augusto Barco <augustopayza@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PepeCharly01/JavaScript-Profesional.git"
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.0.2"
   },
-  "keywords": ["platzi", "media player"],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PepeCharly01/JavaScript-Profesional/issues"
-  },
-  "homepage": "https://github.com/PepeCharly01/JavaScript-Profesional#readme"
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
