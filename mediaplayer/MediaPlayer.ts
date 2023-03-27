@@ -33,8 +33,8 @@ class MediaPlayer {
   
     togglePlay() {
       this.media.paused
-        ?this.play()
-        :this.pause();
+        ? this.media.play()
+        : this.media.pause();
     }
   
     mute() {
